@@ -1,0 +1,142 @@
+/* Font & Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+}
+
+body {
+  background-color: #dad7cd;
+  color: #344e41;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: #3a5a40;
+  text-decoration: none;
+}
+
+header.navbar {
+  background-color: #a3b18a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #344e41;
+}
+
+header nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.hero {
+  background-color: #588157;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.section {
+  padding: 3rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #3a5a40;
+}
+
+.project-list {
+  list-style-type: none;
+}
+
+.project-list li {
+  background-color: #a3b18a;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.social-icons a {
+  margin-right: 1rem;
+  background-color: #344e41;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.social-icons a:hover {
+  background-color: #588157;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #a3b18a;
+  color: #344e41;
+}
+
+/* Project Detail Pages */
+.section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #3a5a40;
+}
+
+.section ul {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.section ul li {
+  margin-bottom: 0.75rem;
+}
+
+.section p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Back Link Styling */
+.section a[href$="index.html"] {
+  display: inline-block;
+  margin-top: 2rem;
+  font-weight: 600;
+  color: #3a5a40;
+  background-color: #d6e3cf;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.section a[href$="index.html"]:hover {
+  background-color: #b5c9aa;
+}
+
+.project-list li:hover {
+  background-color: #b5c9aa;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
